@@ -1,0 +1,12 @@
+; 优化参数集：放到 <数据目录>/MQL5/Profiles/Tester/
+; 格式：名称=当前值||起始||步长||结束||Y(参与优化)/N
+; 未列出的参数使用 EA 默认值。若终端读不到，请在测试器“输入参数”页手动勾选后另存为 .set（UTF-16）。
+InpMR_DevK=1.8||1.2||0.2||2.6||Y
+InpMR_SL_ATR=1.8||1.0||0.25||3.0||Y
+InpMR_TP_ATR=1.5||0.6||0.2||2.4||Y
+InpEmaPeriod=20||10||5||50||Y
+InpMR_RsiLevel=30||20||5||40||Y
+InpTrendADX=25||18||3||36||Y
+InpMaxHoldSec=600||120||120||1200||Y
+InpMaxSpread=0.35||0.15||0.05||0.50||Y
+InpOptMinTrades=200||200||1||200||N
